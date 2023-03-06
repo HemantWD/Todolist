@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HemantWD/Todolist.git/static/css/main.7a434c03.css",
+    "main.js": "/HemantWD/Todolist.git/static/js/main.e0da2cd7.js",
+    "static/js/787.f735ce67.chunk.js": "/HemantWD/Todolist.git/static/js/787.f735ce67.chunk.js",
+    "index.html": "/HemantWD/Todolist.git/index.html",
+    "main.7a434c03.css.map": "/HemantWD/Todolist.git/static/css/main.7a434c03.css.map",
+    "main.e0da2cd7.js.map": "/HemantWD/Todolist.git/static/js/main.e0da2cd7.js.map",
+    "787.f735ce67.chunk.js.map": "/HemantWD/Todolist.git/static/js/787.f735ce67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a434c03.css",
+    "static/js/main.e0da2cd7.js"
+  ]
+}
