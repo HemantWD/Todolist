@@ -3,20 +3,6 @@ import AddTodo from './AddTodo';
 import TodoList from './TodoList';
 import Card from 'react-bootstrap/Card';
 
-const sample = [
-    {
-        id: 1,
-        name: 'Wake-up'
-    },
-    {
-        id: 2,
-        name: 'Go to School'
-    },
-    {
-        id: 3,
-        name: 'Go to College    '
-    }
-]
 
 const Main = () => {
     const [todolist, setTodolist] = React.useState([])
@@ -30,7 +16,7 @@ const Main = () => {
         const newTaskName = prompt("Enter Your Updated task", name);
         const allTask = Object.assign([], todolist)
        
-        const position = allTask.findIndex(el => el.id == id)
+        const position = allTask.findIndex(el => el.id === id)
 
         allTask[position] = {
             id: id,
@@ -41,14 +27,6 @@ const Main = () => {
     
     const deleteCallBack = (id) => {
         console.log(id)
-        const task = document.getElementById(id)
-        if(task){
-            task.remove();
-            
-        }
-        else{
-            console.log(`Task with id ${id} not found`);
-        }
     }
 
     return (

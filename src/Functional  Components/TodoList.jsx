@@ -3,7 +3,7 @@ import Table from 'react-bootstrap/Table';
 
 
 const TodoList = (props) => {
-    // const deleteHandler = (id) => {
+    // const deleteHandler = (id) => 
     //     props.onDelete(id)
     // }
     return (

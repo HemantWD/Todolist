@@ -37,3 +37,7 @@
   }
 }
 
+.delete-task{
+  color: gray;
+  background-color: #eee;
+}
